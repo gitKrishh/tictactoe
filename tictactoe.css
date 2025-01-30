@@ -11,7 +11,7 @@
 .grid{
     display: flex;
     height: 160px;
-    width: 180px;
+    width: 162px;
     flex-wrap: wrap;
 }
 .gridcontainer{
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
 }
 html, body{
     height: 100%;
@@ -26,4 +27,19 @@ html, body{
 }
 h1{
     margin: 10px;
+    color: black;
+}
+.buttons{
+    /* height: 100%; */
+    display: flex;
+    margin: 30px;
+
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    background-color: #9D6B53;
+    border: none;
+    border-radius: 50px;
 }
