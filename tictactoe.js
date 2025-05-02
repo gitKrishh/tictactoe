@@ -79,7 +79,8 @@ function whowin(){
         winner =headings[2].textContent;
 
     }
-    else{
+    else if(headings[1].textContent != "" && headings[2].textContent != "" && headings[3].textContent != "" && headings[4].textContent != "" && headings[5].textContent != "" && headings[6].textContent != "" ){
+        
         alert("DRAW");
     }
     // gamereset();
