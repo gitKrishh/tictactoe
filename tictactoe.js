@@ -79,8 +79,12 @@ function whowin(){
         winner =headings[2].textContent;
 
     }
+    else{
+        alert("DRAW");
+    }
     // gamereset();
     updateScore(winner);
+
 }
 
 // function gamestart(){
